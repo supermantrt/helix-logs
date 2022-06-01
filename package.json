@@ -9,7 +9,6 @@
     "author": "wildflowericecoffee",
     "license": "MIT",
     "scripts": {
-        "start": "node_modules/next/dist/bin/next start -p $PORT"
         "build-sass": "sass src/public/css/main.scss dist/public/css/main.css",
         "build-ts": "tsc",
         "build": "npm run build-sass && npm run build-ts && npm run lint && npm run copy-static-assets",
